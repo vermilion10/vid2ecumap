@@ -1,5 +1,7 @@
 # ECU Mapper RT
 
+<img width="1802" height="934" alt="image" src="https://github.com/user-attachments/assets/052543eb-1288-43fa-ab2d-c1046d8d37ee" />
+
 ECU Mapper RT is a Qt-based desktop application that transforms local video files into real-time, adjustable color-heatmap "tuning tables" featuring live 2D and 3D surface graphs. The user interface is modeled after classic ECU calibration software (such as SXTune and TunerPro), featuring a traditional ECU navigation tree, tab strip, icon toolbar, side-by-side map table and 3D surface plot, 2D multi-line graph, Live Data panel, and a status bar.
 
 All video processing is performed 100% locally on your machine. No video files are bundled with the application, and no data is uploaded externally.
@@ -52,7 +54,7 @@ chmod +x build.sh
 
 The standalone binary will be generated in the `dist/` directory.
 
-**Note for Linux Users:** A pre-built Linux binary (`ECU_Mapper_RT`) is included in this package. You can run it directly using:
+**Note for Linux Users:** A pre-built Linux binary (`ECU_Mapper_RT`) is included in this package (not yet). You can run it directly using:
 
 > ```bash
 > chmod +x ECU_Mapper_RT && ./ECU_Mapper_RT
